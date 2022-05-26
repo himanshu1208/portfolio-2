@@ -102,13 +102,44 @@ p.row.d-flex {
 }
 
 .intro {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .card {
    width: 100%;
-   height: 90%;
+   min-height: 90%;
    border-radius: 20px;
+   box-shadow: 1px 2px 5px #c5c4c4;
 }
+
+.story p {
+    padding: 0 6rem;
+    font-size: 1.2rem;
+}
+
+.card-body img {
+    min-height: 80px;
+    width: 140px;
+}
+
+h3.tech-title {
+    font-family: 'Lato', sans-serif;
+    padding-top: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+p.tech-intro {
+    padding: 3% 20%;
+    font-size: large;
+}
+
+p.tech-intro-2 {
+    padding: 3% 20% 1% 20%;
+    font-size: larger;
+    font-weight: 600;
+    color: #7510F7;
+}
+
 
 
